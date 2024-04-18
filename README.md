@@ -36,4 +36,5 @@ USD (Dollar américain), EUR (Euro), GBP (Livre sterling), JPY (Yen japonais), A
 
 Voici quelques captures d'écran de l'application :
 
-!Interface_Login_Signup.png
+!![Interface_Login_Signup](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/5c2e3f89-c4de-4d42-ba40-8b3decfd7b9b)
+
