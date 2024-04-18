@@ -34,18 +34,22 @@ USD (Dollar américain), EUR (Euro), GBP (Livre sterling), JPY (Yen japonais), A
 
 ## Captures d'écran
 
-1. Les menus : 
+1. Les menus :
+   
 !![Interface_Login_Signup](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/5c2e3f89-c4de-4d42-ba40-8b3decfd7b9b)
 ![Menu](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/cccad743-eb6c-488f-862e-0fd1bb4e9975)
 
-Les opérations CRUD :
+2. Les opérations CRUD :
+
 ![Create_Alert](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/d6570499-79bd-4506-bbec-d1d0fd989737)
 ![List_Alerts](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/c6db6c4c-cb1f-4f60-81f1-a0f4c8951935)
 ![Modify_Alerts](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/60dd2e74-84a3-413f-8706-d359b829f962
 ![Delete_All_Alerts](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/149e8fd9-a994-47cc-b180-6037fd49f1bc)
 
-2. L'affichage des alertes :
+3. L'affichage des alertes :
+
 ![Check_Alerts](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/09bbd27d-d2ba-4481-980a-aff1fbfc6318)
 
-3. Toutes les opérations ainsi que la vérification en version en CLI :
+5. Toutes les opérations ainsi que la vérification en version en CLI :
+
 ![CLI](https://github.com/raynaldlao/CryptoAlerts/assets/131525323/353f8365-0e73-45d4-b29d-e83193badc38)
