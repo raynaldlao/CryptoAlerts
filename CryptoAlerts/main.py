@@ -15,7 +15,7 @@ L'application a été testée sur Visual Studio Code. Pour l'exécuter, vous aur
 Vous devez également vous inscrire sur CoinAPI pour obtenir des clés API. Ces clés ont une durée d’utilisation limitée, mais elles peuvent être réutilisées après un certain temps.
 LANCER LE CODE DE CETTE MANIÈRE : nom@nom-XXXX-XXXX:~/Bureau/CryptoAlerts$ python3 main.py.
 
-Si vous utilisez l'interface utilisateur graphique, vérifier que dans le main ui = TkinterUI(alert_service, auth_service)
+Si vous utilisez l'interface utilisateur graphique, vérifier que dans le main ui = TkinterUI(alert_service, auth_service) et ui.mainloop().
 Si vous voulez effacer l’identifiant et le mot de passe que vous avez créés, vous devez aller sur le fichier users.json et les effacer. 
 Si vous utilisez l'interface en ligne de commande, vérifier que dans le main ui = CommandLineUI(alert_service) 
 
@@ -73,8 +73,8 @@ def main():
         user_interface: UserInterface = JsonFileUserDb()
         alert_service = AlertService(alert_interface, user_interface, api_interface)
         auth_service = AuthentificationService(user_interface)
-        ui = CommandLineUI(alert_service) # CommandLineUI(alert_service) pour le CLI et TkinterUI(alert_service, auth_service) pour le GUI
-        ui.run() # CommandLineUI pour run() et TkinterUI pour mainloop()
+        ui = TkinterUI(alert_service, auth_service) # CommandLineUI(alert_service) pour le CLI et TkinterUI(alert_service, auth_service) pour le GUI
+        ui.mainloop() # CommandLineUI pour run() et TkinterUI pour mainloop()
     except (CryptoError, InvalidCryptoError, InvalidCurrencyError, ApiError, DuplicateIdError, DuplicateAlertError, InvalidVariationError, InvalidModeError) as e:  
         print(f"Une erreur s'est produite : {e}")
 if __name__ == "__main__":
