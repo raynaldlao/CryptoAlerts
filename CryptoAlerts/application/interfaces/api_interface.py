@@ -1,5 +1,3 @@
-from typing import Dict
-
 class ApiInterface:
     def get_current_value(self, crypto: str, devise: str) -> float:
         """Récupère la valeur actuelle pour une crypto-monnaie spécifique"""
